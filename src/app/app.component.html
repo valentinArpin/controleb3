@@ -1,0 +1,3 @@
+<app-login (loginEmit)="login($event)"></app-login>
+<app-home style="height: inherit;" *ngIf="isLogin"></app-home>
+<app-footer *ngIf="isLogin"></app-footer>
